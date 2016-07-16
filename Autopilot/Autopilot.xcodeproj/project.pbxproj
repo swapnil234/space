@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3DB0B81D3A0D8C00849BA3 /* astronaut.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3DB0B71D3A0D8C00849BA3 /* astronaut.png */; };
+		CD3DB0BA1D3A0EEB00849BA3 /* penis.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3DB0B91D3A0EEB00849BA3 /* penis.png */; };
 		CDF6214B1D3A091A00D033A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6214A1D3A091A00D033A1 /* AppDelegate.swift */; };
 		CDF6214D1D3A091A00D033A1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDF6214C1D3A091A00D033A1 /* GameScene.sks */; };
 		CDF6214F1D3A091A00D033A1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6214E1D3A091A00D033A1 /* GameScene.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD3DB0B71D3A0D8C00849BA3 /* astronaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = astronaut.png; sourceTree = "<group>"; };
+		CD3DB0B91D3A0EEB00849BA3 /* penis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = penis.png; path = ../../../penis.png; sourceTree = "<group>"; };
 		CDF621471D3A091A00D033A1 /* Autopilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autopilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF6214A1D3A091A00D033A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF6214C1D3A091A00D033A1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				CDF6214E1D3A091A00D033A1 /* GameScene.swift */,
 				CDF621501D3A091A00D033A1 /* GameViewController.swift */,
 				CDF621521D3A091A00D033A1 /* Main.storyboard */,
+				CD3DB0B91D3A0EEB00849BA3 /* penis.png */,
+				CD3DB0B71D3A0D8C00849BA3 /* astronaut.png */,
 				CDF621551D3A091A00D033A1 /* Assets.xcassets */,
 				CDF621571D3A091A00D033A1 /* LaunchScreen.storyboard */,
 				CDF6215A1D3A091A00D033A1 /* Info.plist */,
@@ -131,7 +137,9 @@
 				CDF6214D1D3A091A00D033A1 /* GameScene.sks in Resources */,
 				CDF621591D3A091A00D033A1 /* LaunchScreen.storyboard in Resources */,
 				CDF621561D3A091A00D033A1 /* Assets.xcassets in Resources */,
+				CD3DB0B81D3A0D8C00849BA3 /* astronaut.png in Resources */,
 				CDF621541D3A091A00D033A1 /* Main.storyboard in Resources */,
+				CD3DB0BA1D3A0EEB00849BA3 /* penis.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +302,7 @@
 				CDF6215F1D3A091A00D033A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
